@@ -13,7 +13,7 @@ In this document I will show the technique that I have implemented to reach the 
 	•	Training set size		: 67692 images
 	•	Test set size			: 22688 images
 	•	Number of classes		: 131 (fruits and vegetables)
-	•	Image size				: 100x100 pixels
+	•	Image size			: 100x100 pixels
 
 # Project Technique
 
