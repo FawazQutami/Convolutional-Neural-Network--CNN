@@ -3,7 +3,8 @@ The objective of this project is to train a neural network that is capable of id
 In this document I will show the technique that I have implemented to reach the desired result, with some explanations.
 
 # Dataset
- Fruits 360 dataset – is a dataset of images containing fruits and vegetables (dated 2020.05.18). This dataset is available for download from Kaggle: Fruits-360 dataset, or, from GitHub: Fruits-360 dataset
+ Fruits 360 dataset – is a dataset of images containing fruits and vegetables (dated 2020.05.18). 
+ This dataset is available for download from Kaggle: Fruits-360 dataset, or, from GitHub: [Fruits-360 dataset](https://github.com/Horea94/Fruit-Images-Dataset')
 Dataset properties
 	•	Total number of images	: 90483
 	•	Training set size		: 67692 images
