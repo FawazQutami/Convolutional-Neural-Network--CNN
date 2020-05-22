@@ -4,7 +4,8 @@ In this document I will show the technique that I have implemented to reach the 
 
 # Dataset
  Fruits 360 dataset – is a dataset of images containing fruits and vegetables (dated 2020.05.18). 
- This dataset is available for download from Kaggle: Fruits-360 dataset, or, from GitHub: [Fruits-360 dataset](https://github.com/Horea94/Fruit-Images-Dataset')
+ This dataset is available for download from Kaggle: Fruits-360 dataset, or, from Kaggle: [Fruits-360 dataset](https://www.kaggle.com/moltean/fruits)
+ or from GitHub: [Fruits-360 dataset](https://github.com/Horea94/Fruit-Images-Dataset)
 
 ## Dataset properties:
 
