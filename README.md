@@ -56,7 +56,8 @@ I have noticed that learning rate has a big impact on the accuracy of the model.
 
 ### Next, we train and fit the model:
 We first train the model by fitting X and y train sets into the model, where batch size = 32 and epochs = 15 with shuffling, and then store the resulted check points, locally, in a file called ‘cnn_fruits.hdf5’.
-Next, we load and evaluate the stored wights:
+
+### Next, we load and evaluate the stored wights:
 We load the wights from the locally saved file (cnn_fruits.hdf5’) and evaluate the model using X and y test sets to calculate the accuracy score of the model, which is 98.70% ( not bad at all!).
 
 ## Make a prediction 
