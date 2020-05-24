@@ -7,12 +7,6 @@
 -- *********************************************
 """
 
-# load Packages
-import datetime as dt
-from keras.callbacks import ModelCheckpoint
-import warnings
-warnings.filterwarnings('ignore')
-
 from eHandler import PrintException as EH
 from data import dataPreparation
 from CNN import CNN
@@ -115,6 +109,13 @@ if __name__ == "__main__":
     try:
         # Install Required packages
         install_required_Packages()
+
+        # load Packages
+        import datetime as dt
+        from keras.callbacks import ModelCheckpoint
+        import warnings
+        warnings.filterwarnings('ignore')
+
         main()
 
     except :
