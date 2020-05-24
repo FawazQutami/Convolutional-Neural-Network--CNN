@@ -9,7 +9,6 @@
 
 # load Packages
 from sklearn.datasets import load_files
-
 import numpy as np
 #from os import path
 import pickle
