@@ -17,6 +17,9 @@ from keras.optimizers import SGD, RMSprop, Adam
 from eHandler import PrintException as EH
 from plotting import plotModel
 
+from tensorflow.python.client import device_lib
+print(device_lib.list_local_devices())
+
 
 def CNN():
     """
@@ -41,28 +44,28 @@ def CNN():
                          , input_shape=(100, 100, 3)
                          , activation='relu'
                          , padding='same'))
-        # Pooling layer 1
+        # Pooling layer 1 - reduce the size of the input layer
         model.add(MaxPooling2D(pool_size=2))
         # Convolution layer 2
         model.add(Conv2D(filters=32
                          , kernel_size=2
                          , activation='relu'
                          , padding='same'))
-        # Pooling layer 2
+        # Pooling layer 2 - reduce the size of the input layer
         model.add(MaxPooling2D(pool_size=2))
         # Convolution layer 3
         model.add(Conv2D(filters=64
                          , kernel_size=2
                          , activation='relu'
                          , padding='same'))
-        # Pooling layer 3
+        # Pooling layer 3 - reduce the size of the input layer
         model.add(MaxPooling2D(pool_size=2))
         # Convolution layer 4
         model.add(Conv2D(filters=128
                          , kernel_size=2
                          , activation='relu'
                          , padding='same'))
-        # Pooling layer 4
+        # Pooling layer 4 - reduce the size of the input layer
         model.add(MaxPooling2D(pool_size=2))
         # Dropout - regularization technique
         """
@@ -72,7 +75,8 @@ def CNN():
         and any weight updates are not applied to the neuron on the backward pass.
         """
         model.add(Dropout(0.3))
-        # Flatten - converting Matrix to single array - remove all of the dimensions except for one
+        # Flatten - converting Matrix to single array - remove all of the dimensions
+        # except for one
         model.add(Flatten())
         # Fully connected layer1 -Dense  (262 neurons in the FIRST hidden layer)
         model.add(Dense(260, activation='relu'))
