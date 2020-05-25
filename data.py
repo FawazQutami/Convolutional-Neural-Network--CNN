@@ -71,7 +71,7 @@ def scaling(item):
     """
     try:
         # Re-scale - pixel values between (0 and 1)
-        item = item.astype('float64') / 255
+        item = item.astype('float32') / 255
 
         return item
 
