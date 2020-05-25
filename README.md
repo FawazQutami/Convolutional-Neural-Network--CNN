@@ -28,7 +28,7 @@ Hence, training sets, testing sets, and validation sets are all ready and availa
 
 ![Show 16 image](/images/sample16.png)
 
-## Convolution Neural Network (CNN) 
+## Convolutional Neural Network (CNN) 
 I will try to build a CNN for multi-class classification for the fruit’s dataset - I used KERAS package to build the CNN.
 ### First, we build the model:
 	•	Build the input layer with dimensions: (100,100,3).
@@ -78,4 +78,4 @@ I have used the common-used (basic) architecture where I stacked a few convoluti
 
 # Code written in Python
 This code favours readability and ease of understanding over speed and robustness and is meant to be used as either a research 
-tool or a study guide for anyone interested in learning about Convolution Neural Network.
+tool or a study guide for anyone interested in learning about Convolutional Neural Network.
