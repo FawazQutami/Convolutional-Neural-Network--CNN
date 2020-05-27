@@ -71,11 +71,10 @@ The result above shows that our prediction is almost good
 
 ![Show the CNN Model Image](/images/performance.png)
 Accuracy shows that our prediction – using the Test set, is almost reaching the same level as the Train set with each increase in the epochs – accuracy on Train set increase as well as the accuracy on Test set, this means that the model is good and there was not overfitting.
-Loss shows a decreasing in both Train and Test curves with each increase in the epochs (because of the learning rate).
+Loss shows a decreasing in both Train and Test curves with each increase in the epochs (learning rate).
 
 ## Final Notes:
 I have used the common-used (basic) architecture where I stacked a few convolutional layers followed by a pooling layer(to reduce the dimensions and avoid overfitting). I wanted to increase the depth of the network with each level, so I increased the number of filters while moving forward. I tried different number of convolutional layers(3,4,5,6), and the number of nodes/filters before I achieved this model and get good accuracy.
 
 # Code written in Python
-This code favours readability and ease of understanding over speed and robustness and is meant to be used as either a research 
-tool or a study guide for anyone interested in learning about Convolutional Neural Network.
+This code is meant to be used as either a research tool or a study guide for anyone interested in learning about Convolutional Neural Network.
